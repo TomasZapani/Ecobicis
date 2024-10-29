@@ -60,7 +60,7 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="120" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -142,8 +142,15 @@
     </Component>
     <Component class="javax.swing.JComboBox" name="Combobox">
       <Properties>
-        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Colisi&#xf3;n con otro ciclista&quot;, &quot;Colisi&#xf3;n con un veh&#xed;culo&quot;, &quot;Ca&#xed;da&quot;, &quot;Colisi&#xf3;n con un peat&#xf3;n&quot;,&quot;Robo-Intento&quot;,&quot;Obst&#xe1;culo en la v&#xed;a&quot; })" type="code"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="Colisi&#xf3;n con otro ciclista"/>
+            <StringItem index="1" value="Colisi&#xf3;n con un veh&#xed;culo"/>
+            <StringItem index="2" value="Ca&#xed;da"/>
+            <StringItem index="3" value="Colisi&#xf3;n con un peat&#xf3;n"/>
+            <StringItem index="4" value="Robo-Intento"/>
+            <StringItem index="5" value="Obst&#xe1;culo en la v&#xed;a"/>
+          </StringArray>
         </Property>
       </Properties>
       <Events>

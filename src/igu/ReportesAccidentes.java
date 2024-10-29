@@ -53,7 +53,7 @@ public class ReportesAccidentes extends javax.swing.JFrame {
 
         jLabel5.setText("Ubicación");
 
-        Combobox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Colisión con otro ciclista", "Colisión con un vehículo", "Caída", "Colisión con un peatón","Robo-Intento","Obstáculo en la vía" }));
+        Combobox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Colisión con otro ciclista", "Colisión con un vehículo", "Caída", "Colisión con un peatón", "Robo-Intento", "Obstáculo en la vía" }));
         Combobox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ComboboxActionPerformed(evt);
@@ -94,7 +94,7 @@ public class ReportesAccidentes extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel6)
                             .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 268, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(120, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jButton1)
